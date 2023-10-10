@@ -1,0 +1,44 @@
+.mapa {
+    width: 800px;
+    height: 550px;
+    border: 3px solid blue;
+    background-image: url(mapa.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.mensajes {
+    width: 800px;
+    height: 80px;
+    border: 3px double blue;
+    text-align: center;
+    font-size: 50px;
+    color: palevioletred;
+}
+.contador{
+    width: 800px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.clicks{
+    width: 400px;
+    height: 80px;
+    border: 3px double blue;
+    font-size: 50px;
+    text-align: center;
+    color: palevioletred;
+}
+.numero{
+    width: 400px;
+    height: 80px;
+    border: 3px double blue;
+    font-size: 50px;
+    text-align: center;
+    color: palevioletred;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
